@@ -7,6 +7,10 @@ const port = 8000;
 
 app.use(express.static('public'));
 
+app.get('/api', (req, res) => {
+  res.send('This is the API!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+});
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
