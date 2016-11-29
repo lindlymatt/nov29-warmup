@@ -1,0 +1,23 @@
+{
+  "name": "nov29-warmup",
+  "version": "1.0.0",
+  "description": "A warmup learning GitHub workflow. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindlymatt/nov29-warmup.git"
+  },
+  "author": "makc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lindlymatt/nov29-warmup/issues"
+  },
+  "homepage": "https://github.com/lindlymatt/nov29-warmup#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
